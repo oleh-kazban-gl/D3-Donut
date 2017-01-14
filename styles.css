@@ -1,0 +1,34 @@
+#chart {
+    height: 500px;
+    position: relative;
+    width: 960px;
+    margin: 0 auto;
+}
+
+.legend {
+    font-size: 12px;
+}
+
+.tooltip {
+    background: #eee;
+    box-shadow: 0 0 5px #999999;
+    color: #333;
+    display: none;
+    font-size: 12px;
+    left: calc(50% - 40px);
+    padding: 10px;
+    position: absolute;
+    text-align: center;
+    top: 95px;
+    width: 80px;
+    z-index: 10;
+}
+
+rect {
+    stroke-width: 2;
+    cursor: pointer;
+}
+
+rect.disabled {
+    fill: transparent !important;
+}
